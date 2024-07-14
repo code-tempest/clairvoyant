@@ -1,11 +1,11 @@
-name: run Ryan_LLM_Forecast_Bot.ipynb
+name: run ClairvoyantV1.ipynb
 
 # general info here: https://github.com/patrickloeber/python-github-action-template
 # specific info about yaananth notebook runner and this workflow here: https://github.com/yaananth/run-notebook
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # every 6th hour
+    - cron: '0 */12 * * *' # every 12th hour (prev. 6th)
   workflow_dispatch:
 
 jobs:
